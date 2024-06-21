@@ -11,7 +11,7 @@ pygame.mixer.init()
 
 def play_music():
     """Reproduce música de fondo."""
-    pygame.mixer.music.load(r"C:\Users\randy\OneDrive\Documents\Python\.vscode\Megalovania.mp3") 
+    pygame.mixer.music.load(r"C:la ruta donde esta tu musica") 
     pygame.mixer.music.play(-1)  #
 
 def restart_program():
